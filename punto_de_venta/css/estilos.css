@@ -1,0 +1,26 @@
+a{
+  margin: auto;
+}
+
+.card{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+i.btn-add{
+  transition: all 0.3s ease-in-out;
+}
+i.btn-add:hover{
+  transform: rotate(45deg);
+}
+
+.btn-logout{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.btn-container{
+  margin: 20px 0;
+}
